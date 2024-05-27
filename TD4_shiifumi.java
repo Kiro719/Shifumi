@@ -22,7 +22,7 @@ public class TD4_shiifumi {
 			nbpoint = sc.nextInt();	
 			do { // on répéte si on veut recommencer la partie
 
-				do { //on r�p�te si on saisie autre chose que 1 2 ou 3
+				do { //on répéte si on saisie autre chose que 1 2 ou 3
 
 					//le joueur fait un choix entre 1 et 3
 					System.out.println("¤(1),_(2) ou >(3) ?");
@@ -33,7 +33,7 @@ public class TD4_shiifumi {
 					}
 				}while(choix<1 || choix>3);
 
-				//on d�termine une valeur al�atoire entre 1 et 3
+				//on détermine une valeur aléatoire entre 1 et 3
 				choixPC= (int)(Math.random()*(3))+1;
 
 				Thread.sleep(3*1000);
